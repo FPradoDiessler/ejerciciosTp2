@@ -1,0 +1,10 @@
+primero abris un branch en gittube
+despues abris una carpeta en el sistema y esa en cmd
+despues
+echo "# ejerciciosTp2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/FPradoDiessler/ejerciciosTp2.git
+git push -u origin main
